@@ -35,7 +35,7 @@ B: you know it! things have been going great lately. Had to pinch myself yesterd
 ```
 and you enter the following in the command line to send as a message to the bot:
 ```
-So you got any plans for the weekend? 
+A: So you got any plans for the weekend? 
 ```
 then this is what will get sent to the bot API:
 ```
