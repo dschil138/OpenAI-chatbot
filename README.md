@@ -43,9 +43,12 @@ A and B are close friends and neighbors. Both are friendly and witty. Ty often h
 
 A: Hey
 B: Heyooo. what up
-A: nm. exciting day today!
-B: you know it! things have been going great lately. Had to pinch myself yesterday lol
+A: nm. Beautiful day out today!
+B: Absolutely
+A: So you got any plans for the weekend? 
+B: 
 ```
+*(the program adds all the A: B: stuff)*
 
 The bot needs all this info to create a good response! If you just sent "So you got any plans this weekend", the response would be wildly unpredictable. So what this program does is handle remembering and sending  all the extra context for you, so that you can just interact with the bot as if it's a normal conversation
 
