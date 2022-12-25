@@ -23,11 +23,11 @@ each time you send a message to the bot, it will receive:
 3. current message you just sent
  
 so if you "prepend" defined like this in config.py:
-```py
+```
 prepend = "A and B are close friends and neighbors. Both are friendly and witty. B often has new projects and ideas he wants to talk about.\n"
 ```
 and "initPrompt" as this:
-```py
+```
 initPrompt = "A: Hey
 B: Heyooo. what up
 A: nm. exciting day today!
@@ -48,7 +48,7 @@ B: Absolutely
 A: So you got any plans for the weekend? 
 B: 
 ```
-*(the program adds all the A: B: stuff)*
+*(the program handles adding all the A: B: stuff)*
 
 The bot needs all this info to create a good response! If you just sent "So you got any plans this weekend", the response would be wildly unpredictable. So what this program does is handle remembering and sending  all the extra context for you, so that you can just interact with the bot as if it's a normal conversation
 
