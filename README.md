@@ -13,9 +13,9 @@ this is the file you will run in the command line to run the bot
 
 **3. chatFunctions.py**
 you don't need to touch this file
+---
 
-
-### understanding how it works and how to use it:
+## understanding how it works and how to use it:
 
 each time you send a message to the bot, it will receive:
 1. the "prepend" string
@@ -52,15 +52,18 @@ B:
 
 The bot needs all this info to create a good response! If you just sent "So you got any plans this weekend", the response would be wildly unpredictable. So what this program does is handle remembering and sending  all the extra context for you, so that you can just interact with the bot as if it's a normal conversation
 
-# TOKEN USE
+---
+## Token Use (OpenAI's pricing)
 
-Each time you send a message, you are charged tokens for all the above text you are sending, plus for whatever text the bot generates and sends back. So the vast majority of the tokens you are charged are actually for the context you provide with each call. But the bot needs that context to be able to know what to say. That is the tradeoff: more context means better responses, but it's more expensive.
+Open AI  charges by the tokens (words, more or less). You get charged for the tokens you send to the bot, and the tokens that the bot sends back.
 
+So each time you send a message, you are charged for all the text in the prompt, plus for whatever text the bot generates and sends back. So the vast majority of the tokens you are charged are actually for the context you provide with each call. But the bot needs that context to be able to know what to say! That is the tradeoff: more context means better responses, but it's more expensive. Choose wisely.
 
-### Running the bot:
+---
+## Running The Bot:
 
-1. Set up chatConfig.py
-2. install the openAI library, needed for the program
+1. Set up your chatConfig.py file
+2. install the openAI library
 ```bash
 pip install openai
 ```
