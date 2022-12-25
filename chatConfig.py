@@ -4,7 +4,7 @@ import openai
 openai.api_key = "YOUR_API_KEY_HERE"
 
 
-# Extra information about the conversation you want to have with the bot.
+# Extra info about the conversation you ("D") want to have with the bot ("C").
 # This gets prepended to every request sent to the API, so don't make 
 # it too long or it will eat up your tokens fast! Or, make it super long. idc
 prepend = "D and C are close friends and neighbors. Both are friendly and witty. C often has new projects and ideas he wants to talk about.\n\n"
@@ -16,8 +16,8 @@ prepend = "D and C are close friends and neighbors. Both are friendly and witty.
 numberOfInteractions = 4
 
 
-# Some initial example "past" interactions to get you started when you first 
-# message the bot. This text is VERY IMPORTANT and will determine how the bot
-# responds to you. As you talk to the bot, the program will gradually 
-# replace these with your actual conversation
+# Some initial fake "past" interactions to get you started when you  first 
+# message the bot ("C"). This text is VERY IMPORTANT and will determine how the bot
+# responds to you. It will follow the lead you set for it here. As you talk to
+# the bot, the program will gradually replace these with your actual conversation
 initPrompt = "D: Hey! \nC: Hey,what's up\nD: nm. beautiful day today!\nC: absoluteley!"
